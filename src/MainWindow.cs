@@ -244,5 +244,10 @@ namespace Szaman
                 }
             }
         }
+
+        private void wyjdŸToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -87,22 +87,23 @@
             // otwórzToolStripMenuItem
             // 
             otwórzToolStripMenuItem.Name = "otwórzToolStripMenuItem";
-            otwórzToolStripMenuItem.Size = new Size(141, 22);
+            otwórzToolStripMenuItem.Size = new Size(180, 22);
             otwórzToolStripMenuItem.Text = "Otwórz...";
             otwórzToolStripMenuItem.Click += otwórzToolStripMenuItem_Click;
             // 
             // zapiszJakoToolStripMenuItem
             // 
             zapiszJakoToolStripMenuItem.Name = "zapiszJakoToolStripMenuItem";
-            zapiszJakoToolStripMenuItem.Size = new Size(141, 22);
+            zapiszJakoToolStripMenuItem.Size = new Size(180, 22);
             zapiszJakoToolStripMenuItem.Text = "Zapisz jako...";
             zapiszJakoToolStripMenuItem.Click += zapiszJakoToolStripMenuItem_Click;
             // 
             // wyjdźToolStripMenuItem
             // 
             wyjdźToolStripMenuItem.Name = "wyjdźToolStripMenuItem";
-            wyjdźToolStripMenuItem.Size = new Size(141, 22);
+            wyjdźToolStripMenuItem.Size = new Size(180, 22);
             wyjdźToolStripMenuItem.Text = "Wyjdź";
+            wyjdźToolStripMenuItem.Click += wyjdźToolStripMenuItem_Click;
             // 
             // zapytaniaToolStripMenuItem
             // 
