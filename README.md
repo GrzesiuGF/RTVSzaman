@@ -12,7 +12,9 @@ Projekt ten prezentuje przedstawienie ontologii zamówień sprzetów AGD dla kli
       - [Właściwości Dane (Datatype Properties)](#właściwości-dane-datatype-properties)
       - [Klasy (Classes)](#klasy)
       - [Indywidua (Individuals)](#indywidua-individuals)
-   - [Opis Techniczny](#opis-techniczny)
+4.  [Opis Techniczny](#opis-techniczny)
+      - [Ontologia](#ontologia)
+      - [Aplikacja](#aplikacja)
 
 ## Jak uruchomić projekt
 
@@ -108,7 +110,9 @@ lub można otworzyć solucję `src/Szaman.sln` w Visual Studio i uruchomić apli
 
 ---
 
-### Opis Techniczny
+4. Opis Techniczny
+
+#### Ontologia 
 
 Ontologia została zapisana w formacie RDF/XML zgodnie ze specyfikacją OWL 2. Wykorzystuje następujące przestrzenie nazw:
 
@@ -119,3 +123,11 @@ Ontologia została zapisana w formacie RDF/XML zgodnie ze specyfikacją OWL 2. W
 
 Każdy element ontologii został zaprojektowany w celu reprezentacji realnych procesów w systemie e-commerce, takich jak składanie zamówień, wybór metody dostawy oraz płatności.
 
+#### Aplikacja
+
+W aplikacji zostały wykorzystane poniższe narzędzia i biblioteki:
+
+- `C#`: Język programowania
+- `Visual Studio`: Zintegrowane środowisko programistyczne, oferujące narzędzia do edycji i debugowania
+- `dotNetRDF`: Główna z bibliotek do pracy z danymi RDF i zapytaniami SPARQL
+- `Windows Forms`: Framework do tworzenia aplikacji desktopowych w .NET
